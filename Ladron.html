@@ -7,13 +7,17 @@
     <title>Document</title>
     <style>
       form {
-        width: 75%;
-        margin-left: 25%;
+        width: 50%;
+        margin-left: 15%;
         margin-bottom: 25%;
         background-color:  rgb(233, 169, 241);
       }
       html {
         background-color: rgb(233, 169, 241);
+      }
+
+      leyend {
+        width: 50;
       }
     </style>
 
@@ -30,7 +34,8 @@
       
     ><hr>
 
-
+    <form action="">
+     
     <h2>Los ladronzuelos de bicicletas</h2>
     <p><strong>El club viejuner</strong></p><br>
 
@@ -46,12 +51,13 @@
     
     <p>Precio: <input type="range" name="Rango-de-precios" list="range-price">   
         
-    </form>
+    
     <datalist id="range-price">
     <option value="20"  value="Baratuela">
     <option value="100" value="Ni tan mal">
     <option value="180" value="Lujaso'">
     </datalist> <br><br>
+    
     
  
   <label for="Bici">Tipo de bicicleta:</label>
@@ -109,7 +115,7 @@
   <label for="Foco"> Foco</label><br>
   <br>
   
-</form> 
+
 
 <p><strong>¿Qué marca era?:</strong></p>
 
@@ -143,13 +149,15 @@
   <br><br> 
 
   <fieldset>
-  <legend>Tu:</legend>
+  <legend>Tus datos:</legend>
       
     
     
 
       <button type="button" onclick="alert('Tus datos han sido enviados')">Enviar</button><br>
       <button type="reset">Borrar</button>
+
+      </form>
       
     
       
